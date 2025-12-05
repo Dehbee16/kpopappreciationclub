@@ -193,7 +193,7 @@ header nav a.active {
 
 /* Hero section */
 #hero-image {
-  background: url('../img/kpopbanner.jpg') no-repeat center center/cover;
+  background: url('../img/placeholder_bg.png') no-repeat center center/cover;
   height: 95vh;
   margin: 0;
   display: flex;
@@ -216,6 +216,42 @@ header nav a.active {
 }
 
 #hero-image span i {
+  background: var(--white);
+  font-size: 1.625rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--spacing8x12);
+}
+
+/* Homepage Hero section */
+#homepage-hero {
+  background: url('../img/kpopbanner.jpg') no-repeat center center/cover;
+  height: 95vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing8x3);
+}
+
+#homepage-hero h1 {
+  text-align: center;
+  color: var(--white);
+  margin: 0; 
+
+}
+
+#homepage-hero p {
+  color: var(--white);
+  margin: 0; 
+}
+
+#homepage-hero span i {
   background: var(--white);
   font-size: 1.625rem;
   width: 48px;
