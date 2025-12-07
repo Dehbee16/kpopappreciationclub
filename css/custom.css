@@ -99,7 +99,7 @@ h6 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  color: var(--primary-80);
+  color: var(--white);
   /* Try adjusting: line-height, letter-spacing, margin-bottom */
 }
 
@@ -175,6 +175,10 @@ a.button-highlight {
 
 
 /* Header styles */
+header {
+  background: var(--cream);
+}
+
 header img {
   width: 160px;
   /* Try adjusting: width, border-radius for logo styling */
@@ -187,6 +191,7 @@ header nav {
 
 header nav a {
   margin-left: 40px;
+  color: var(--primary-80);
   /* Try adding: text-transform, font-weight, padding for button-style nav */
 }
 
@@ -295,11 +300,6 @@ header nav a.active {
   height: 100%;
   min-height: 300px;
 }
-
-
-
-
-
 
 
 /*  Content section */
@@ -471,6 +471,60 @@ iframe {
 /* ==========================================================================
    DUAL FULL WIDTH VARIANTS - RATIO MODIFIERS
    ========================================================================== */
+
+/* Listening Party Card - Blue background */
+.listening-party-card {
+  background: var(--blue);
+}
+
+.listening-party-card .text h3 {
+  color: var(--light-pink);
+}
+
+.listening-party-card .text p,
+.listening-party-card .text a {
+  color: var(--white);
+}
+
+.listening-party-card .text a.button {
+  border: 2px solid var(--white);
+}
+
+/* K-pop Dance Lessons Card - Blue background */
+.dance-lessons-card {
+  background: var(--blue);
+}
+
+.dance-lessons-card .text h3 {
+  color: var(--light-pink);
+}
+
+.dance-lessons-card .text p,
+.dance-lessons-card .text a {
+  color: var(--white);
+}
+
+.dance-lessons-card .text a.button {
+  border: 2px solid var(--white);
+}
+
+/* K-watch Party Card - Dirty Rose Pink background */
+.kdrama-watch-card {
+  background: var(--dirty-rose-pink);
+}
+
+.kdrama-watch-card .text h3 {
+  color: var(--blue);
+}
+
+.kdrama-watch-card .text p,
+.kdrama-watch-card .text a {
+  color: var(--white);
+}
+
+.kdrama-watch-card .text a.button {
+  border: 2px solid var(--white);
+}
 
 /* 1/3 - 2/3 ratio: Image (1/3), Text (2/3) */
 .dual-full-width.ratio-1-2 {
