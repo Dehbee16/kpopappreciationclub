@@ -53,6 +53,7 @@ Experiment with colors, typography, spacing, and component styles.
 
 body {
   color: var(--light-pink);
+  background-color: var(--blue);
   /* font-family is set in framework.css but you can override it here if needed */
 }
 
@@ -130,7 +131,7 @@ section div+div {
 /* Basic Link Styles */
 a {
   text-decoration: none;
-  color: var(--primary-80);
+  color: var(--white);
   transition: all 300ms;
   /* Try adding: border-bottom, font-weight changes, etc. */
 }
@@ -311,8 +312,8 @@ section p + a.button {
 /* Footer Styles */
 footer {
   width: 100%;
-  background: var(--primary-100);
-  color: var(--white);
+  background: var(--cream);
+  color: var(--blue);
   padding: 40px 20px 20px;
   /* Try customizing: background gradients, text alignment, etc. */
 }
@@ -364,11 +365,17 @@ footer nav, footer p {
 .dark-bg-wrapper h4,
 .dark-bg-wrapper p {
   color: var(--white);
+  
 }
 
 /* Newsletter header override */
 .dark-bg-wrapper h2 {
   color: var(--light-pink);
+}
+
+/* Club Activities section background */
+.activities-section {
+  background: var(--blue) !important;
 }
 
 .dark-bg-wrapper a.button {

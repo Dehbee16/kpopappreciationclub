@@ -118,6 +118,11 @@ table {
   --grey: #EBEFF4;
   --white: #fff;
 
+  --blue: #2B366E;
+  --light-pink: #F29894;
+  --dirty-rose-pink: #E08683;
+  --cream: #F3EFE1;
+
 
   /* Spacing variables */
   --spacing4x1: 0.25rem;
@@ -158,7 +163,7 @@ body {
   font-weight: 500;
   overflow-x: hidden;
   line-height: 1.5;
-  color: var(--primary-80);
+  color: var(--white);
   margin: 0;
   padding: 0;
 }
@@ -290,7 +295,7 @@ img {
 
 /* Dark background wrapper - extends to viewport edges */
 .dark-bg-wrapper {
-  background: var(--primary-100);
+  background: var(--dirty-rose-pink);
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
@@ -437,7 +442,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--primary-100);
+  background-color: var(--cream);
   z-index: 1000;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
@@ -451,11 +456,11 @@ section {
 }
 
 .mobile-nav nav a {
-  color: white;
+  color: #2B366E;
   text-decoration: none;
   font-size: 25px;
   display: block;
-  border-bottom: 1.5px solid #ebeff4;
+  border-bottom: 1.5px solid #E08683;
   padding: 20px 0;
 }
 
@@ -467,7 +472,7 @@ section {
 /* Transform hamburger to X when menu is open */
 #mobile-nav-toggle:checked ~ .hamburger-menu span:nth-child(1) {
   transform: rotate(45deg) translate(7px, 7px);
-  background-color: white;
+  background-color: #2B366E;
 }
 
 #mobile-nav-toggle:checked ~ .hamburger-menu span:nth-child(2) {
@@ -476,7 +481,7 @@ section {
 
 #mobile-nav-toggle:checked ~ .hamburger-menu span:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -7px);
-  background-color: white;
+  background-color: #2B366E;
 }
 
 /* Prevent background scrolling when menu is open */
