@@ -49,6 +49,10 @@ Experiment with colors, typography, spacing, and component styles.
   background-color: var(--cream);
 }
 
+.rounded-corners {
+  border-radius: 15px;
+}
+
 
 /* ==========================================================================
    TYPOGRAPHY - CUSTOMIZE FONTS & TEXT STYLES
