@@ -601,3 +601,11 @@ section#homepage-welcome p {
 .cream-bg  p{
   color: var(--blue);
 }
+.kpop-banner{
+  background-color:black;
+  background-image: url("../img/kpopblackbannersvg.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 80vh;
+}
