@@ -179,7 +179,7 @@ a.button-highlight {
 header {
   background: var(--cream);
   margin: 0;
-  padding: 0 var(--spacing8x3);
+  padding: 20px var(--spacing8x3);
   width: 100%;
   box-sizing: border-box;
 }
@@ -444,6 +444,15 @@ hr {
   /* Add desktop-specific styling here */
 }
 
+/* Tablet-specific customizations */
+@media only screen and (min-width: 800px) {
+  
+section {
+  margin: 4rem 98px;
+}
+
+}
+
 /* Quote Section */
 .quote-section blockquote {
   margin: 0;
@@ -555,4 +564,28 @@ iframe {
     order: -1;
     min-height: 300px;
   }
+}
+
+
+/* Homepage specific styles */
+
+
+section#homepage-welcome picture {
+  grid-column: 1/7;
+}
+
+section#homepage-welcome p {
+  grid-column: 6/13;
+}
+
+@media only screen and (max-width: 799px) { 
+
+  section#homepage-welcome picture {
+  grid-column: 2/12;
+}
+
+section#homepage-welcome p {
+  grid-column: 1/13;
+}
+
 }
