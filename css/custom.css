@@ -35,6 +35,7 @@ Experiment with colors, typography, spacing, and component styles.
   --primary-25: #CED7E4;
   --grey: #EBEFF4;
   --white: #fff;
+
   
   /* You can add more custom colors here */
 
@@ -44,7 +45,9 @@ Experiment with colors, typography, spacing, and component styles.
   --cream: #F3EFE1;
 }
 
-
+.cream-bg {
+  background-color: var(--cream);
+}
 
 
 /* ==========================================================================
@@ -168,6 +171,12 @@ a.button-highlight {
   background-color: var(--highlight-color);
   border: 1.5px solid var(--highlight-color);
   color: white;
+}
+
+/* Buttons in cream-bg containers */
+.cream-bg a.button {
+  color: var(--blue) !important;
+  border: 2px solid var(--blue) !important;
 }
 
 /* ==========================================================================
@@ -588,4 +597,7 @@ section#homepage-welcome p {
   grid-column: 1/13;
 }
 
+}
+.cream-bg  p{
+  color: var(--blue);
 }
