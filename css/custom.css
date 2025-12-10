@@ -62,6 +62,7 @@ body {
   color: var(--light-pink);
   background-color: var(--blue);
   /* font-family is set in framework.css but you can override it here if needed */
+  font-family: "Azeret Mono", monospace;
 }
 
 /* Heading Styles - Customize sizes, colors, spacing */
