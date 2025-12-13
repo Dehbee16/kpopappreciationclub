@@ -53,6 +53,18 @@ Experiment with colors, typography, spacing, and component styles.
   border-radius: 15px;
 }
 
+/* Round all image corners */
+img {
+  border-radius: 15px;
+}
+
+/* Don't round corners on club activities page images */
+.listening-party-card img,
+.kdrama-watch-card img,
+.dance-lessons-card img {
+  border-radius: 0;
+}
+
 
 /* ==========================================================================
    TYPOGRAPHY - CUSTOMIZE FONTS & TEXT STYLES
